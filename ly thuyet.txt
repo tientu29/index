@@ -1,0 +1,9 @@
+I. Đơn vị
+1. Tuyệt đối
+    px
+2. Tương đối
+    %: phụ thuộc vào thẻ chứa
+    rem: phụ thuộc vào thẻ html
+    em: phụ thuộc vào thẻ cha gần nhất có cùng thuộc tính
+    vw: viewport width theo chiều rộng  trình duyệt
+    vh: viewport height theo chiều cao  trình duyệt

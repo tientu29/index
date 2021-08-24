@@ -1,0 +1,69 @@
+/* CSS: external */
+#firt 
+{
+      color: red;
+      font-size: 50px;
+}
+p
+{
+    font-size: 20px;
+}
+img
+{
+    width: 300px;
+    height: 300px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+.second
+{
+  color:  green; 
+  }
+html
+{
+  color:black;
+}
+div{
+  width: 50%;
+  
+}
+.Info
+{
+  width: 50%;
+}
+
+
+
+/* độ ưu tiên
+1. Internal, External ưu tiên cái mới nhất
+2. tag < class < id < Inline 
+3. Equal specificity : Khi gọi giống nahu thì ưu tiên cái mới nhất và cộng dồn
+4. Universal selector and inherited: phổ cập cho toàn bộ dùng *, kế thừa  */
+/*cách gọi ID & Class
+ID: #
+Class:. 
+ */
+ /* !important : khi thêm vào thì mạnh hơn Inline
+ VD: .second{
+      color: red; !important
+ }
+ */
+ /*
+ I.CSS Variable
+ :root{
+  --text-color: blue;
+}
+h1{
+  color: var(--text-color);
+}
+h2{
+  
+  --my-color: red; chỉ dùng trong cặp này
+  color: var(--my-color);
+}
+ 
+
+  */
